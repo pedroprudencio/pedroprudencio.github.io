@@ -3,57 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <title>Meu Portifolio</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
-    <style>
-        body{
-            background-color: #cdebf4ff;
-        }
-        h1{
-            color: #c84078ff;
-        }
-        #description{
-            color: rgb(12, 11, 12);
-        }
-        #nacionalidade{
-            color: blue;
-        }
-        .list{
-            font-size: 20px;
-        }
-
-    </style>
     <body>
-        <h1>Pedro Prudêncio</h1>
-        <img src="pedro.jpeg" alt="Foto do pedro com uma camisa preta e oculos" width="200px">
-        <p><a href="pedro.jpeg">Abrir foto de perfil</a></p>
-        <h2>Indice</h2>
-        <p>
-            <ol>
-                <li><a href="#Descrição">Descrição</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-                <li><a href="#Hoobies">Hoobies</a></li>
-            </ol>
-        </p>
-        <h2 id="Descrição">Descrição</h2>
+        <div id="nome"><h1>Pedro Prudêncio</h1></div>
+        <div class="foto"><img src="pedro.jpeg" alt="Foto do pedro com uma camisa preta e oculos" width="200px"></div>
+        <div class="descrição"><h2 id="Descrição">Descrição</h2>
         <p id="description">
         <em id="nacionalidade">Sou brasileiro, nascido em Mauá-SP,</em> 22 anos, atualmente moro em Mauá-SP.</em>
             <br>DEV em desenvolvimento na Trybe, Estudante de Ciências da programação na Anhembi Morumbi.
             <br><br><a href="https://www.linkedin.com/in/pedrohprudencio/" target="_blank">Linkedin.</a>
-            
-        </p>
-        <h2 id="Habilidades">Habilidades</h2>
-        <ul>
-            <li class="list"><strong>Inglês Avançado</strong></li>
-            <li class="list">Excel</li>
-            <li class="list">Comunicador</li>
-            <li class="list">Persistente</li>
-            <li class="list">Flexivel</li>
-        </ul>
-        <h2 id="Hoobies">Hoobies</h2>
-        <p>
-            Como um bom desenvolvedor sempre estou antenado nas noticias do mundo da tecnologia
-            sempre vejo as noticias no <a href="https://tecnoblog.net/" target="_blank">TecnoBlog.</a>
-        </p>
-
+        </p></div>  
+        <div class="indice">
+            <h2 id="Habilidades">Habilidades</h2>
+            <ul>
+                <li class="impar"><strong>Inglês Avançado</strong></li>
+                <li class="list">Excel</li>
+                <li class="impar">Comunicador</li>
+                <li class="list">Persistente</li>
+                <li class="impar">Flexivel</li>
+            </ul>
+            <h2 id="Hoobies">Hobbies</h2>
+            <p>
+                Como um bom desenvolvedor sempre estou antenado nas noticias do mundo da tecnologia
+                sempre vejo as noticias no <a href="https://tecnoblog.net/" target="_blank">TecnoBlog.</a>
+            </p>
+        </div>
     </body>
 </html>
+
+
+
+
+
+
+
+

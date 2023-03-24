@@ -1,0 +1,45 @@
+body{
+    background-color: #cdebf4ff;
+    padding: 1%;
+}
+h1{
+    color: #c84078ff;
+}
+#description{
+    color: rgb(12, 11, 12);
+}
+#nacionalidade{
+    color: blue;
+}
+.list {
+    font-size: 20px;
+}
+.impar{
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nome {
+    text-align: center;
+}
+
+.foto {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    background-color: black;
+}
+
+.descrição {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    right: 34%;
+    top: 20%;
+}
+#habilidades{
+    margin: 10%;
+}
+.indice {
+    clear: both;
+}
